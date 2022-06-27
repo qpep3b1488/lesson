@@ -4,6 +4,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url(images/patt.png);
 }
 .container   {
     width: 1200px;
@@ -12,13 +13,14 @@ body {
     margin-right: auto;
 }
 .header {
-
+background-color: rgba(255, 255, 255, 0.75);
+padding: 25px 0;
 }
 .row {
     margin-right: -15px;
     margin-left: -15px;
 }
-.row:after {
+.row:after, .menu:after {
     content: "";
     display: block;
     clear: both;
@@ -34,3 +36,18 @@ body {
 .col-md-6 {
     width: 50%;
 }
+.menu li{
+    float: left;
+    width: 25%;
+    height: 50px;
+}
+.menu a{
+    display: block;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 21px;
+    color: #2c71b8;
+}
+
