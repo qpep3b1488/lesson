@@ -12,5 +12,25 @@ body {
     margin-right: auto;
 }
 .header {
-    
+
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+[class*=col-] {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-6 {
+    width: 50%;
 }
